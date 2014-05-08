@@ -1,0 +1,27 @@
+{
+    "name": "one-more-function",
+    "version": "0.1.0",
+    "description": "Tacks one more function onto the end of an existing function",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hugojosefson/one-more-function"
+    },
+    "keywords": [
+        "function",
+        "wrap",
+        "one",
+        "more",
+        "another",
+        "listener"
+    ],
+    "author": "Hugo Josefson <hugo@josefson.org>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hugojosefson/one-more-function/issues"
+    },
+    "homepage": "https://github.com/hugojosefson/one-more-function"
+}
