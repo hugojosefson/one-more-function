@@ -4,11 +4,16 @@
     "description": "Tacks one more function onto the end of an existing function",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "bundle": "browserify index.js > dist/one-more-function-bundle.js",
+        "bundle-standalone": "browserify --standalone oneMoreFunction index.js > dist/one-more-function-bundle-standalone.js"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/hugojosefson/one-more-function"
+    },
+    "devDependencies": {
+        "browserify": ""
     },
     "keywords": [
         "function",
